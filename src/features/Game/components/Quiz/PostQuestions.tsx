@@ -43,7 +43,7 @@ const PostQuestions = () => {
       }
 
       const tx = await nftContractInstance['safeTransferFrom(address,address,uint256)'](
-        '0x8Cd99CEA8e595FdDbE7859Ff00A1c255f84621d4', // Replace with the actual address holding the NFT
+        '0xF7249B507F1f89Eaea5d694cEf5cb96F245Bc5b6', // Replace with the actual address holding the NFT
         await signer.getAddress(),
         nftId,
         { gasLimit: 1000000 } // Set a manual gas limit

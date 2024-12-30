@@ -31,7 +31,7 @@ const neoMainnet = {
 
 // Configure chains and providers
 const { chains, publicClient, webSocketPublicClient } = configureChains(
-  [neoTestnet, neoMainnet],
+  [neoMainnet],
   [
     jsonRpcProvider({
       rpc: (chain) => {
