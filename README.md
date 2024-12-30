@@ -27,10 +27,10 @@
 - Real-time leaderboard displays top-performing players in live quizzes.
 - View the average market value of NFTs on the platform.
 
-## Deployed Contracts
+## Deployed and Verified Contracts
 
-| Contract Name        | Description                                   | NEO X MAINNET Deployed Contract Links                                            |
-|----------------------|-----------------------------------------------|-----------------------------------------------------------------------------------|
+| Contract Name        | Description                                   | NEO X MAINNET Deployed and Verified Contract Links                           |
+|----------------------|-----------------------------------------------|------------------------------------------------------------------------------|
 | `DunkVerse.sol`      | ERC-20 token contract for $FTO.               | https://xexplorer.neo.org/address/0xb8171c4E2002Deea048477D8B337ff27F9a36687 |
 | `BettingPool.sol`    | Handles GameFi betting logic.                 | https://xexplorer.neo.org/address/0xEa8860639d003c9B746B94d077D6dD5052e7cF5d |
 | `AIGeneratedNFT.sol` | Manages NFT generation, supply, and transfers.| https://xexplorer.neo.org/address/0x164D1bBaD8De402b80f65fCa468CacF294865ca7 |
