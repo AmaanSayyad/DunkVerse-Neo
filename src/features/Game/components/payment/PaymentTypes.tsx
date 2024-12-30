@@ -31,8 +31,8 @@ const PaymentTypes = () => {
   const [totalInvested, setTotalInvested] = useState<string>('0');
 
   // Contract Addresses
-  const DUNKVERSE_ADDRESS = '0xaF1968db67Dd7161D2AF04917b03240DE638ec15';
-  const BETTING_POOL_ADDRESS = '0xaD488Cd332034434240828F987d6E6B991D48125';
+  const DUNKVERSE_ADDRESS = '0xb8171c4E2002Deea048477D8B337ff27F9a36687';
+  const BETTING_POOL_ADDRESS = '0xEa8860639d003c9B746B94d077D6dD5052e7cF5d';
 
   // Fetch the token balance
   const fetchTokenBalance = async () => {

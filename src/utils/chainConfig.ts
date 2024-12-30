@@ -1,13 +1,11 @@
 export const ChainId = {
   
-  NEO_TESTNET: 12227332,
   NEO_MAINNET: 47763,
   
 };
 
 export const supportedChains = [
   
-  ChainId.NEO_TESTNET,
   ChainId.NEO_MAINNET,
   
 ];
@@ -15,8 +13,6 @@ export const supportedChains = [
 export const getRPCProvider = (chainId: number): string => {
   switch (chainId) {
     
-    case ChainId.NEO_TESTNET:
-      return "https://neoxt4seed1.ngd.network";
     case ChainId.NEO_MAINNET:
       return "https://mainnet-1.rpc.banelabs.org";
     
@@ -28,8 +24,6 @@ export const getRPCProvider = (chainId: number): string => {
 export const getExplorer = (chainId: number): string => {
   switch (chainId) {
     
-    case ChainId.NEO_TESTNET:
-      return "https://xt4scan.ngd.network";
     case ChainId.NEO_MAINNET:
       return "https://xexplorer.neo.org";
     
